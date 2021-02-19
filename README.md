@@ -1,8 +1,7 @@
-# London Refs Group - FIP 4
+# Chat Application
 
-## Descrption
-* Full design & web overhaul and advertising campaign for London Referee's Group... 
-* Details in progress... more to come soon
+## Description
+* Simple chat application with an oldschool look.
 
 ## Requirements
 * Use a modern browser such as Google Chrome.
@@ -20,8 +19,4 @@
 * Node 
 
 ## Authors
-* Abdalrahman Abushammala - Project Manager
-* Jordan Andrigo - Designer
-* Tessa Benton-Cooper - Front-end Developer
-* Hien Nguyen - Back-end Developer
-* Spencer Mellor - Motion & 3D Designer
+* Hien - 0907008
