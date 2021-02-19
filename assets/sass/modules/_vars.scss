@@ -1,0 +1,14 @@
+//fonts
+@font-face {
+    font-family: 'Traveling'; //TITLES
+    src:  url('TravelingTypewriter.woff2') format('woff2'),
+          url('TravelingTypewriter.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Selectric'; //TITLES
+    src:  url('SelectricScript.woff2') format('woff2'),
+          url('SelectricScript.woff') format('woff');
+}
+
+$main-font: 'Courier New', Courier, monospace;

@@ -1,0 +1,38 @@
+//index page
+#home-bg{
+    background: url('../images/index-bg.jpeg') center no-repeat;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 250px;
+
+    #graphic{
+        height: 200px;
+    }
+
+    h2{
+        font-family: 'Traveling';
+        margin-top: 30px;
+        margin-bottom: 20px;
+        font-size: 35px;
+    }
+    p{
+        font-family: 'Selectric';
+        font-size: 22px;
+        margin-bottom: 30px;
+    }
+
+    button{
+        padding: 10px 20px;
+        a{
+            text-decoration: none;
+            font-size: 22px;
+            color: white;
+            font-family: 'Traveling';
+        }
+        border-radius: 30px;
+        background-color: gray;
+    }
+    button:hover{
+        filter: drop-shadow(2px 2px black);
+    }
+}

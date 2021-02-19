@@ -1,0 +1,140 @@
+@font-face {
+  font-family: 'Traveling';
+  src: url("TravelingTypewriter.woff2") format("woff2"), url("TravelingTypewriter.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Selectric';
+  src: url("SelectricScript.woff2") format("woff2"), url("SelectricScript.woff") format("woff");
+}
+
+* {
+  border: none;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.hidden {
+  display: none;
+}
+
+#chat-bg {
+  background: url("../images/chat-bg.jpg") center no-repeat;
+  padding-bottom: 300px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 50px;
+  height: 1000px;
+  width: 100%;
+}
+
+#chat-bg h2 {
+  font-family: 'Traveling';
+  font-size: 23px;
+  padding-top: 30px;
+  margin-bottom: 15px;
+}
+
+#chat-bg .messages {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#chat-bg .messages .new-message {
+  color: brown;
+  font-family: "Courier New", Courier, monospace;
+  margin-right: 0 auto;
+  width: 40%;
+}
+
+#chat-bg .messages .my-message {
+  color: black;
+  float: right;
+  width: 40%;
+  text-align: right;
+}
+
+#chat-bg .message-wrapper #type-name {
+  width: 400px;
+  height: 30px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 22px;
+  padding-left: 15px;
+  border: 1px solid black;
+}
+
+#chat-bg .message-wrapper textarea {
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  width: 500px;
+  height: 100px;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+}
+
+#chat-bg .message-wrapper #send-button {
+  padding: 5px 15px;
+  font-size: 20px;
+  color: white;
+  font-family: 'Traveling';
+  border-radius: 30px;
+  background-color: darkred;
+}
+
+#chat-bg .message-wrapper #send-button:hover {
+  -webkit-filter: drop-shadow(2px 2px black);
+          filter: drop-shadow(2px 2px black);
+}
+
+#home-bg {
+  background: url("../images/index-bg.jpeg") center no-repeat;
+  text-align: center;
+  padding-top: 10%;
+  padding-bottom: 250px;
+}
+
+#home-bg #graphic {
+  height: 200px;
+}
+
+#home-bg h2 {
+  font-family: 'Traveling';
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 35px;
+}
+
+#home-bg p {
+  font-family: 'Selectric';
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+#home-bg button {
+  padding: 10px 20px;
+  border-radius: 30px;
+  background-color: gray;
+}
+
+#home-bg button a {
+  text-decoration: none;
+  font-size: 22px;
+  color: white;
+  font-family: 'Traveling';
+}
+
+#home-bg button:hover {
+  -webkit-filter: drop-shadow(2px 2px black);
+          filter: drop-shadow(2px 2px black);
+}
+/*# sourceMappingURL=main.css.map */
