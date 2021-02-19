@@ -1,0 +1,79 @@
+//quick reset
+* {
+    border: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hidden{
+    display: none;
+}
+
+#chat-bg{
+    background: url('../images/chat-bg.jpg') center no-repeat;
+    padding-bottom: 300px; padding-right: 30px;
+    padding-left: 30px; padding-top: 50px;
+    height: 1000px; 
+    width: 100%;
+
+    h2{
+        font-family: 'Traveling';
+        font-size: 23px;
+        padding-top: 30px;
+        margin-bottom: 15px;
+    }
+
+    .messages{
+        //chat page
+        display: flex; flex-direction: column;
+        justify-content: space-around;
+        .new-message{
+            color: brown;
+            font-family: $main-font;
+            margin-right: 0 auto;
+            width: 40%;
+        }
+        
+        .my-message{
+            color: black;
+            float: right;
+            width: 40%;
+            text-align: right;
+        }
+    }
+
+    .message-wrapper{
+        #type-name{
+            width: 400px;
+            height: 30px;
+            font-family: $main-font;
+            font-size: 22px; 
+            padding-left: 15px;
+            border: 1px solid black;
+        }
+
+        textarea{
+            font-size: 20px;
+            font-family: $main-font;
+            width: 500px; height: 100px;
+            padding: 15px;
+            margin-bottom: 20px;
+            border: 1px solid black;
+        }
+
+        #send-button{
+            padding: 5px 15px;
+            font-size: 20px;
+            color: white;
+            font-family: 'Traveling';
+            border-radius: 30px;
+            background-color: darkred;
+        }
+        #send-button:hover{
+            filter: drop-shadow(2px 2px black);
+        }
+    }
+}
+
+
